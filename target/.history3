@@ -1,0 +1,49 @@
+1677782581689:testOnly riscv.fivestagetest
+1677790942532:testOnly riscv.fivestagetest - --DwriteVcd=1
+1677790980439:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1677848519378:\\
+1677848702042:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1677859125755:\\
+1677859149853:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1677863059756:testOnly riscv.riscvtest -- -DwriteVcd=1
+1677863204060:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1677863849384:testOnly riscv.regtest -- -DwriteVcd=1
+1677864940037:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1677876354740:testOnly riscv.instMemtest -- -DwriteVcd=1
+1677912678833:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1677913547428:testOnly riscv.instMemtest -- -DwriteVcd=1
+1677918971039:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678016619323:testOnly riscv.instMemtest -- -DwriteVcd=1
+1678017521119:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678026308264:testOnly riscv.instMemtest -- -DwriteVcd=1
+1678028285409:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678173858846:testOnly riscv.fivestagetest -- -DwriteVcd=1\\
+1678175333624:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678179122669:testOnly riscv.instMemtest -- -DwriteVcd=1
+1678182101690:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678186536488:testOnly riscv.instMemtest -- -DwriteVcd=1
+1678186546514:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678364494702:testOnly riscv.instMemtest -- -DwriteVcd=1
+1678364553096:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678372226203:testOnly riscv.fivestagetest - --DwriteVcd=1
+1678372236442:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678373990500:testOnly riscv.fivestagetest - --DwriteVcd=1
+1678373993431:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678396791361:testOnly riscv.fivestagetest -- -DwriteVcd=1'
+1678469355952:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678474581612:testOnly riscv.fivestagetest - --DwriteVcd=1
+1678476549481:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678481329678:testOnly riscv.fivestagetest -- -DwriteVcd=1\\
+1678526065885:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678714379263:clear
+1678714388757:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1678913030911:testOnly riscv.fivestagetest -- -DwriteVcd=1\\
+1678914462178:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1679306169514:testOnly riscv.fivestagetest -- -DwriteVcd=1\\
+1679307075786:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1679308850379:sbt
+1679308912744:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1679312764965:testOnly riscv.fivestagetest -- -DwriteVcd=1\\
+1679325293631:testOnly riscv.fivestagetest -- -DwriteVcd=1
+1679337432175:testOnly riscv.fivestagetest -- -DwriteVcd=1\\
+1679337681812:testOnly riscv.fivestagetest -- -DwriteVcd=1

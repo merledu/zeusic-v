@@ -1,0 +1,148 @@
+$date
+2022-09-12T10:31+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Mux2 $end
+ $var wire 1 ! io_o1 $end
+ $var wire 1 " io_o4 $end
+ $var wire 1 # io_s2 $end
+ $var wire 1 $ _io_o1_T_1 $end
+ $var wire 1 % io_in0 $end
+ $var wire 1 & io_in3 $end
+ $var wire 1 ' _io_o2_T $end
+ $var wire 1 ( io_o3 $end
+ $var wire 1 ) _io_o2_T_1 $end
+ $var wire 1 * clock $end
+ $var wire 1 + io_s1 $end
+ $var wire 1 , io_o2 $end
+ $var wire 1 - _io_o1_T $end
+ $var wire 1 . io_in2 $end
+ $var wire 1 / reset $end
+ $var wire 1 0 io_in1 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+0&
+0-
+0'
+0.
+0/
+0!
+00
+0(
+0"
+0)
+0#
+0*
+0+
+0,
+0$
+$end
+#0
+1/
+#1
+1*
+#6
+0-
+1.
+1#
+0*
+0(
+0/
+1,
+1)
+#11
+1*
+#16
+0*
+#21
+1*
+#26
+0*
+#31
+1*
+#36
+0*
+#41
+1*
+#46
+0*
+#51
+1*
+#56
+0*
+#61
+1*
+#66
+0*
+#71
+1*
+#76
+0*
+#81
+1*
+#86
+0*
+#91
+1*
+#96
+0*
+#101
+1*
+#106
+0*
+#111
+1*
+#116
+0*
+#121
+1*
+#126
+0*
+#131
+1*
+#136
+0*
+#141
+1*
+#146
+0*
+#151
+1*
+#156
+0*
+#161
+1*
+#166
+0*
+#171
+1*
+#176
+0*
+#181
+1*
+#186
+0*
+#191
+1*
+#196
+0*
+#201
+1*
+#206
+0.
+0#
+0*
+0,
+0)
+#211
+1*
+#216
+0*

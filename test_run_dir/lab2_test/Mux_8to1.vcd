@@ -1,0 +1,146 @@
+$date
+2022-09-08T14:59+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Mux_8to1 $end
+ $var wire 1 ! Mux4_to_1_b $end
+ $var wire 1 " io_out $end
+ $var wire 1 # _Mux4_to_1_b_T_3 $end
+ $var wire 1 $ _Mux4_to_1_a_T_2 $end
+ $var wire 1 % _Mux4_to_1_a_T_5 $end
+ $var wire 1 & io_s2 $end
+ $var wire 1 ' _Mux4_to_1_b_T $end
+ $var wire 1 ( Mux4_to_1_a $end
+ $var wire 1 ) _Mux4_to_1_b_T_2 $end
+ $var wire 1 * _Mux4_to_1_b_T_5 $end
+ $var wire 1 + _Mux4_to_1_a_T_1 $end
+ $var wire 1 , clock $end
+ $var wire 1 - io_s1 $end
+ $var wire 1 . _Mux4_to_1_a_T_4 $end
+ $var wire 1 / _Mux4_to_1_a_T $end
+ $var wire 1 0 _Mux4_to_1_b_T_4 $end
+ $var wire 1 1 _Mux4_to_1_a_T_3 $end
+ $var wire 1 2 _Mux4_to_1_b_T_1 $end
+ $var wire 8 3 io_in $end
+ $var wire 1 4 reset $end
+ $var wire 1 5 io_s0 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+04
+0&
+05
+0-
+0'
+0.
+0/
+0!
+00
+0(
+0"
+01
+0)
+0#
+b00000000 3
+0*
+0+
+02
+0,
+0$
+$end
+#0
+14
+#1
+1,
+#6
+04
+1&
+0,
+#11
+1,
+#16
+0,
+#21
+1,
+#26
+0,
+#31
+1,
+#36
+0,
+#41
+1,
+#46
+0,
+#51
+1,
+#56
+0,
+#61
+1,
+#66
+0,
+#71
+1,
+#76
+0,
+#81
+1,
+#86
+0,
+#91
+1,
+#96
+0,
+#101
+1,
+#106
+0,
+#111
+1,
+#116
+0,
+#121
+1,
+#126
+0,
+#131
+1,
+#136
+0,
+#141
+1,
+#146
+0,
+#151
+1,
+#156
+0,
+#161
+1,
+#166
+0,
+#171
+1,
+#176
+0,
+#181
+1,
+#186
+0,
+#191
+1,
+#196
+0,
+#201
+1,
+#206
+0&
+0,

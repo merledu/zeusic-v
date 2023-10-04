@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/inst/instMem.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~instMem|instMem>io_instr",
+    "sources":[
+      "~instMem|instMem>io_addr"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"instMem.instMem.Amem",
+    "fileName":"/home/amir/V",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"Amem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/inst"
+  }
+]

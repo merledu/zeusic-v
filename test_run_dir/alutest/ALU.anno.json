@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/alutest/ALU.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ALU|ALU>io_Result",
+    "sources":[
+      "~ALU|ALU>io_Aluop",
+      "~ALU|ALU>io_in_a",
+      "~ALU|ALU>io_in_b"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/alutest"
+  }
+]

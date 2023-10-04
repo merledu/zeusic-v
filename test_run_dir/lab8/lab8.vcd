@@ -1,0 +1,524 @@
+$date
+2022-09-22T19:50+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module lab8 $end
+ $var wire 10 " mem_1_MPORT_1_addr_pipe_0 $end
+ $var wire 10 & mem_2_MPORT_1_addr_pipe_0 $end
+ $var wire 1 * io_write $end
+ $var wire 10 + mem_3_MPORT_1_addr_pipe_0 $end
+ $var wire 1 1 mem_2_MPORT_1_en_pipe_0 $end
+ $var wire 1 4 io_enable $end
+ $var wire 1 5 io_mask_1 $end
+ $var wire 8 7 mem_1 $end
+ $var wire 10 8 io_addr $end
+ $var wire 8 < io_dataOut_1 $end
+ $var wire 8 > io_dataIn_1 $end
+ $var wire 1 D mem_1_MPORT_1_en_pipe_0 $end
+ $var wire 8 I io_dataIn_0 $end
+ $var wire 8 N mem_3 $end
+ $var wire 1 O io_mask_3 $end
+ $var wire 8 P io_dataIn_3 $end
+ $var wire 1 Q clock $end
+ $var wire 8 Z mem_0 $end
+ $var wire 1 [ io_mask_0 $end
+ $var wire 8 ] io_dataOut_0 $end
+ $var wire 10 b mem_0_MPORT_1_addr_pipe_0 $end
+ $var wire 8 c io_dataOut_3 $end
+ $var wire 1 e mem_0_MPORT_1_en_pipe_0 $end
+ $var wire 1 g reset $end
+ $var wire 1 i mem_3_MPORT_1_en_pipe_0 $end
+ $var wire 8 n mem_2 $end
+ $var wire 8 o io_dataIn_2 $end
+ $var wire 1 p io_mask_2 $end
+ $var wire 8 t io_dataOut_2 $end
+  $scope module mem_0 $end
+   $var wire 8 # MPORT $end
+    $scope module MPORT_1 $end
+     $var wire 1 ! clk $end
+     $var wire 1 M en $end
+     $var wire 10 V addr $end
+     $var wire 8 u data $end
+    $upscope $end
+    $scope module MPORT $end
+     $var wire 10 $ pipeline_addr_0 $end
+     $var wire 8 . data $end
+     $var wire 8 ; pipeline_data_0 $end
+     $var wire 1 E en $end
+     $var wire 1 H clk $end
+     $var wire 1 T mask $end
+     $var wire 1 \ valid $end
+     $var wire 10 h addr $end
+     $var wire 1 r pipeline_valid_0 $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_3 $end
+   $var wire 8 , MPORT $end
+    $scope module MPORT $end
+     $var wire 8 % data $end
+     $var wire 1 ' en $end
+     $var wire 1 3 pipeline_valid_0 $end
+     $var wire 1 6 valid $end
+     $var wire 8 : pipeline_data_0 $end
+     $var wire 1 K mask $end
+     $var wire 10 _ addr $end
+     $var wire 10 f pipeline_addr_0 $end
+     $var wire 1 m clk $end
+    $upscope $end
+    $scope module MPORT_1 $end
+     $var wire 10 ) addr $end
+     $var wire 8 A data $end
+     $var wire 1 B en $end
+     $var wire 1 W clk $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_1 $end
+   $var wire 8 j MPORT $end
+    $scope module MPORT_1 $end
+     $var wire 1 ( en $end
+     $var wire 10 G addr $end
+     $var wire 8 ` data $end
+     $var wire 1 q clk $end
+    $upscope $end
+    $scope module MPORT $end
+     $var wire 1 / en $end
+     $var wire 8 = pipeline_data_0 $end
+     $var wire 1 ? mask $end
+     $var wire 1 C pipeline_valid_0 $end
+     $var wire 10 F addr $end
+     $var wire 1 U valid $end
+     $var wire 1 X clk $end
+     $var wire 8 a data $end
+     $var wire 10 l pipeline_addr_0 $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_2 $end
+   $var wire 8 L MPORT $end
+    $scope module MPORT $end
+     $var wire 10 - addr $end
+     $var wire 1 2 en $end
+     $var wire 8 9 pipeline_data_0 $end
+     $var wire 1 @ valid $end
+     $var wire 8 J data $end
+     $var wire 1 ^ pipeline_valid_0 $end
+     $var wire 1 d clk $end
+     $var wire 10 k pipeline_addr_0 $end
+     $var wire 1 s mask $end
+    $upscope $end
+    $scope module MPORT_1 $end
+     $var wire 10 0 addr $end
+     $var wire 8 R data $end
+     $var wire 1 S en $end
+     $var wire 1 Y clk $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00000000 .
+0X
+0C
+0q
+b0000000000 b
+0i
+0T
+b00000000 I
+b00000000 A
+b00000000 ,
+1/
+b00000000 u
+b00000000 `
+b0000000000 "
+0m
+0e
+b0000000000 V
+b00000000 o
+b00000000 Z
+b0000000000 $
+03
+b00000000 =
+0g
+05
+b0000000000 &
+b00000000 7
+0D
+b00000000 N
+b00000000 9
+0[
+1'
+01
+b00000000 P
+b00000000 ;
+b0000000000 k
+0r
+0H
+0@
+b00000000 R
+b00000000 J
+0W
+0B
+b00000000 a
+b00000000 L
+b0000000000 +
+0Y
+b0000000000 _
+b00000000 c
+b0000000000 -
+0p
+0S
+06
+b00000000 ]
+0!
+0U
+b0000000000 F
+0M
+b00000000 t
+b0000000000 )
+b00000000 %
+0d
+1E
+0O
+b00000000 <
+0Q
+12
+b0000000000 l
+04
+b00000000 >
+0K
+b00000000 j
+b00000000 #
+b0000000000 h
+0(
+b00000000 :
+0\
+b00000000 n
+b0000000000 8
+0?
+0*
+b0000000000 0
+0s
+0^
+b0000000000 G
+b0000000000 f
+$end
+#0
+1g
+#1
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#6
+0Q
+14
+0g
+b00001010 J
+b0000000100 h
+b00110010 a
+b0000000100 F
+0d
+1*
+0H
+b00010100 I
+b0000000100 _
+b0000000100 -
+b01100100 %
+0X
+b00010100 .
+0Y
+b00001010 o
+1[
+b00110010 >
+0q
+1\
+0!
+1T
+b0000000100 8
+0W
+0m
+b01100100 P
+#11
+b0000000100 f
+1Q
+1S
+1i
+b0000000100 b
+1M
+b0000000100 0
+11
+1d
+b0000000100 G
+1e
+b00010100 ]
+1H
+b0000000100 +
+1B
+b00010100 u
+1X
+b0000000100 &
+1Y
+1D
+b00110010 =
+1(
+1q
+b0000000100 )
+1!
+1r
+b0000000100 "
+b0000000100 k
+b0000000100 V
+b00001010 9
+b0000000100 l
+1W
+b0000000100 $
+b01100100 :
+1m
+b00010100 ;
+#16
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#21
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#26
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#31
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#36
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#41
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#46
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#51
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#56
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#61
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#66
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#71
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#76
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#81
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#86
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#91
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#96
+0!
+0Q
+0X
+0d
+0Y
+0H
+0W
+0m
+0q
+#101
+1!
+1Q
+1X
+1d
+1Y
+1H
+1W
+1m
+1q
+#106
+0Q
+b0000000000 -
+b00000000 %
+04
+0X
+b00000000 .
+b00000000 J
+0Y
+b0000000000 h
+b00000000 o
+b00000000 a
+0[
+b00000000 >
+0q
+0\
+0!
+0T
+b0000000000 F
+0d
+b0000000000 8
+0*
+0H
+0W
+b00000000 I
+0m
+b00000000 P
+b0000000000 _
+#111
+b0000000000 f
+1Q
+0B
+1X
+1Y
+0D
+0S
+0i
+b00000000 =
+0(
+1q
+0M
+1!
+0r
+01
+1d
+b0000000000 k
+0e
+b00000000 9
+b0000000000 l
+1W
+1H
+b0000000000 $
+b00000000 :
+1m
+b00000000 ;
+#116
+0Q

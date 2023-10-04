@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/aluctrlt/alu.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~alu|alu>io_ctrl",
+    "sources":[
+      "~alu|alu>io_Aluop",
+      "~alu|alu>io_func7",
+      "~alu|alu>io_op_code",
+      "~alu|alu>io_func3"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/aluctrlt"
+  }
+]

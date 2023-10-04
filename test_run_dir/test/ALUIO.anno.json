@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/test/ALUIO.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ALUIO|ALUIO>io_out",
+    "sources":[
+      "~ALUIO|ALUIO>io_in_A",
+      "~ALUIO|ALUIO>io_in_B",
+      "~ALUIO|ALUIO>io_funct3",
+      "~ALUIO|ALUIO>io_branch"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/test"
+  }
+]

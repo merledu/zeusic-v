@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/inst_test/Inst_mem.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Inst_mem|Inst_mem>io_instr",
+    "sources":[
+      "~Inst_mem|Inst_mem>io_addr"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"Inst_mem.Inst_mem.A_mem",
+    "fileName":"/home/mamir/Desktop/AJ",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"A_mem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/inst_test"
+  }
+]

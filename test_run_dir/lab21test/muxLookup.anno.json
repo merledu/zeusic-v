@@ -1,0 +1,29 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/lab21test/muxLookup.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~muxLookup|muxLookup>io_out",
+    "sources":[
+      "~muxLookup|muxLookup>io_in7",
+      "~muxLookup|muxLookup>io_sel",
+      "~muxLookup|muxLookup>io_in6",
+      "~muxLookup|muxLookup>io_in5",
+      "~muxLookup|muxLookup>io_in4",
+      "~muxLookup|muxLookup>io_in3",
+      "~muxLookup|muxLookup>io_in2",
+      "~muxLookup|muxLookup>io_in1",
+      "~muxLookup|muxLookup>io_in0"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/lab21test"
+  }
+]
