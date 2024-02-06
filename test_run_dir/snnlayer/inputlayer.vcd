@@ -1,0 +1,644 @@
+$date
+2024-02-06T15:00+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module inputlayer $end
+ $var wire 1 & io_out $end
+ $var wire 1 + io_in_2 $end
+ $var wire 8 , io_in2_7 $end
+ $var wire 8 8 io_in2_1 $end
+ $var wire 8 B io_in2_4 $end
+ $var wire 1 F n1 $end
+ $var wire 1 G io_in_1 $end
+ $var wire 1 Q io_in_4 $end
+ $var wire 1 S n4 $end
+ $var wire 8 [ io_in2_3 $end
+ $var wire 8 ` io_in2_6 $end
+ $var wire 1 h n3 $end
+ $var wire 8 j io_in2_9 $end
+ $var wire 8 l io_in2_0 $end
+ $var wire 1 s n6 $end
+ $var wire 1 w clock $end
+ $var wire 1 y io_in_0 $end
+ $var wire 8 } io_in2_8 $end
+ $var wire 1 ~ io_in_3 $end
+ $var wire 8 "& io_in2_2 $end
+ $var wire 8 "- io_in2_5 $end
+ $var wire 1 "1 reset $end
+ $var wire 1 "5 n2 $end
+ $var wire 1 "; n5 $end
+  $scope module n5 $end
+   $var wire 17 * _potentialReg_T_2 $end
+   $var wire 1 A clock $end
+   $var wire 1 D io_neuronOutput $end
+   $var wire 9 M _potentialReg_T_1 $end
+   $var wire 8 R potentialReg $end
+   $var wire 9 W _potentialReg_T_4 $end
+   $var wire 8 g vth $end
+   $var wire 8 p io_synapse_0 $end
+   $var wire 1 q reset $end
+   $var wire 8 u _T $end
+   $var wire 16 "$ _potentialReg_T_3 $end
+   $var wire 16 "( _potentialReg_T_6 $end
+   $var wire 17 "< _potentialReg_T_5 $end
+   $var wire 16 "= _potentialReg_T $end
+   $var wire 1 "? io_spikeInput $end
+  $upscope $end
+  $scope module n2 $end
+   $var wire 9 . _potentialReg_T_4 $end
+   $var wire 8 0 _T $end
+   $var wire 8 1 potentialReg $end
+   $var wire 9 C _potentialReg_T_1 $end
+   $var wire 1 E io_neuronOutput $end
+   $var wire 8 I io_synapse_0 $end
+   $var wire 16 a _potentialReg_T_3 $end
+   $var wire 1 f reset $end
+   $var wire 16 k _potentialReg_T_6 $end
+   $var wire 8 "* vth $end
+   $var wire 17 "/ _potentialReg_T_2 $end
+   $var wire 1 "4 io_spikeInput $end
+   $var wire 17 "6 _potentialReg_T_5 $end
+   $var wire 1 ": clock $end
+   $var wire 16 "@ _potentialReg_T $end
+  $upscope $end
+  $scope module n6 $end
+   $var wire 8 ! _GEN_2 $end
+   $var wire 16 $ _potentialReg_T $end
+   $var wire 8 % io_synapse_4 $end
+   $var wire 16 ' _potentialReg_T_7 $end
+   $var wire 8 ( _GEN_5 $end
+   $var wire 3 3 _potentialReg_T_1 $end
+   $var wire 8 5 _T $end
+   $var wire 9 7 _count_T $end
+   $var wire 16 9 _potentialReg_T_4 $end
+   $var wire 1 : reset $end
+   $var wire 8 ; io_synapse_1 $end
+   $var wire 8 > potentialReg $end
+   $var wire 1 H io_neuronOutput $end
+   $var wire 8 K count $end
+   $var wire 17 T _potentialReg_T_3 $end
+   $var wire 8 U io_synapse_0 $end
+   $var wire 17 ] _potentialReg_T_6 $end
+   $var wire 8 ^ io_synapse_3 $end
+   $var wire 8 c _GEN_4 $end
+   $var wire 8 o _count_T_1 $end
+   $var wire 1 t io_spikeInput $end
+   $var wire 8 z _GEN_3 $end
+   $var wire 9 "# _potentialReg_T_2 $end
+   $var wire 8 "% io_synapse_2 $end
+   $var wire 9 ") _potentialReg_T_5 $end
+   $var wire 8 "+ vth $end
+   $var wire 1 ", clock $end
+  $upscope $end
+  $scope module n3 $end
+   $var wire 16 " _potentialReg_T $end
+   $var wire 1 / reset $end
+   $var wire 8 2 io_synapse_0 $end
+   $var wire 8 6 vth $end
+   $var wire 16 < _potentialReg_T_6 $end
+   $var wire 1 L io_neuronOutput $end
+   $var wire 16 O _potentialReg_T_3 $end
+   $var wire 17 b _potentialReg_T_2 $end
+   $var wire 1 i io_spikeInput $end
+   $var wire 17 m _potentialReg_T_5 $end
+   $var wire 8 x _T $end
+   $var wire 8 "" potentialReg $end
+   $var wire 1 "' clock $end
+   $var wire 9 "0 _potentialReg_T_1 $end
+   $var wire 9 "2 _potentialReg_T_4 $end
+  $upscope $end
+  $scope module n4 $end
+   $var wire 8 ) _T $end
+   $var wire 16 4 _potentialReg_T $end
+   $var wire 1 ? io_neuronOutput $end
+   $var wire 8 @ vth $end
+   $var wire 17 N _potentialReg_T_2 $end
+   $var wire 17 X _potentialReg_T_5 $end
+   $var wire 1 Y io_spikeInput $end
+   $var wire 1 Z clock $end
+   $var wire 9 n _potentialReg_T_4 $end
+   $var wire 8 r potentialReg $end
+   $var wire 9 { _potentialReg_T_1 $end
+   $var wire 16 "3 _potentialReg_T_3 $end
+   $var wire 1 "7 reset $end
+   $var wire 8 "9 io_synapse_0 $end
+   $var wire 16 "> _potentialReg_T_6 $end
+  $upscope $end
+  $scope module n1 $end
+   $var wire 17 # _potentialReg_T_2 $end
+   $var wire 17 - _potentialReg_T_5 $end
+   $var wire 1 = io_neuronOutput $end
+   $var wire 1 J io_spikeInput $end
+   $var wire 8 P potentialReg $end
+   $var wire 1 V clock $end
+   $var wire 9 \ _potentialReg_T_1 $end
+   $var wire 9 _ _potentialReg_T_4 $end
+   $var wire 8 d vth $end
+   $var wire 8 e io_synapse_0 $end
+   $var wire 8 v _T $end
+   $var wire 1 | reset $end
+   $var wire 16 "! _potentialReg_T_6 $end
+   $var wire 16 ". _potentialReg_T_3 $end
+   $var wire 16 "8 _potentialReg_T $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0"7
+0&
+b00000000 0
+b000000000 "2
+0=
+0"1
+b00000000 d
+b00000000 2
+b000000000 C
+b0000000000000000 a
+b00000000000000000 X
+0V
+b00000000 `
+b00000000 "&
+b00000000000000000 T
+0~
+b00000000 ""
+b00000000000000000 m
+0L
+b0000000000000000 4
+0/
+0D
+0F
+0":
+b00000000 P
+b00000000 ;
+0H
+b00000000 g
+b00000000 R
+0+
+b00000000 5
+b00000000000000000 "<
+b000 3
+b000000000 _
+b000000000 W
+b00000000 z
+b00000000 e
+b00000000 "+
+b0000000000000000 "@
+0"4
+b00000000 "%
+b00000000 v
+0:
+b0000000000000000 "
+b0000000000000000 k
+0f
+0Q
+b000000000 ")
+b0000000000000000 9
+b00000000 p
+b00000000 [
+b00000000000000000 #
+b00000000 >
+b00000000 )
+b0000000000000000 ">
+b00000000000000000 "6
+b00000000 !
+0"?
+b00000000 r
+b00000000 U
+b00000000 @
+0w
+b0000000000000000 "8
+0E
+b00000000 l
+0?
+b000000000 M
+b000000000 \
+b000000000 "0
+b0000000000000000 ".
+b000000000 {
+b00000000000000000 *
+0Z
+b0000000000000000 "(
+b00000000 "*
+0q
+0i
+b0000000000000000 '
+b00000000 ^
+b00000000 I
+b00000000 ,
+b00000000 u
+b0000000000000000 "$
+b000000000 7
+b00000000 o
+0"'
+0|
+b00000000 (
+b0000000000000000 "=
+b0000000000000000 O
+0J
+b0000000000000000 <
+b00000000000000000 "/
+b00000000 "9
+b0000000000000000 "3
+b00000000 "-
+0t
+b00000000000000000 N
+0Y
+b00000000000000000 ]
+b00000000 x
+b00000000 c
+b00000000 1
+0S
+b00000000000000000 -
+b000000000 n
+0",
+b00000000 B
+b00000000 %
+b0000000000000000 $
+0h
+b000000000 "#
+b0000000000000000 "!
+b00000000 j
+b00000000 8
+0y
+b000000000 .
+0G
+0";
+0s
+b00000000000000000 b
+b00000000 }
+0A
+0"5
+b00000000 K
+b00000000 6
+$end
+#0
+1f
+1"7
+1"1
+b00000001 o
+1:
+b000000001 7
+1|
+1/
+1q
+#1
+1":
+1",
+b00001010 g
+b00001010 @
+b00001010 d
+1V
+1w
+1Z
+b00001010 6
+b00001010 "*
+1"'
+1A
+b00001010 "+
+#6
+0f
+1Q
+b0000000000001011 <
+b00010001 }
+b00010000 "%
+b00000000000001101 "<
+0"'
+b00010010 j
+b00000000000001011 b
+b000001101 M
+b0000000000001100 ">
+1y
+b0000000000000001 "!
+b00000000000001010 "6
+1G
+b00001011 2
+b00000000000001101 *
+b000001100 {
+b00010001 ^
+b00001010 I
+0A
+b00010000 ,
+0":
+b00001111 `
+b00000000000001100 X
+b000001010 C
+0w
+1"4
+0Z
+b00001110 (
+0q
+b000000001 \
+b0000000000000001 ".
+b000001011 "0
+b0000000000001010 k
+0V
+b0000000000001101 "(
+b00000000000001011 m
+b00001111 ;
+0",
+b0000000000001101 "$
+1J
+1~
+1i
+b00001011 "&
+b0000000000001010 a
+0/
+b00001110 c
+b00000000000001100 N
+1"?
+0"7
+b00000001 e
+b00001110 z
+1+
+0|
+b00001100 "9
+b00001101 B
+b00000000000000001 -
+b00010010 %
+b0000000000001100 "3
+1Y
+b00001101 p
+b00001100 [
+b00001110 "-
+b00001110 !
+b00000000000001010 "/
+b00001110 U
+b00001010 8
+b00000000000000001 #
+0"1
+b00000001 l
+b0000000000001011 O
+0:
+#11
+b0000000001100100 <
+b0000000001101100 4
+b00000001 K
+b00000000001111000 "<
+1"'
+b00000000001101110 b
+b00001010 0
+b0000000001101110 ">
+b00000000001100100 "6
+b0000000000001010 "!
+b00000000010000010 *
+b0000000000001001 "8
+b000001111 "#
+1A
+1":
+b00001101 u
+b000001010 "2
+b00000000001101110 X
+1w
+b00000010 o
+1Z
+b00001111 (
+b0000000000001010 ".
+b00000000000001111 T
+1?
+b0000000001100011 "
+b0000000001111000 "(
+b0000000001100100 k
+1V
+b0000000000001111 9
+b00000000001100100 m
+b00000001 P
+b001 3
+1",
+b0000000010000010 "$
+b00001101 R
+b0000000001100100 a
+1L
+b000000010 7
+b0000000001110101 "=
+b00001111 c
+b00000000001111000 N
+b00001010 1
+b00001111 z
+b00001011 ""
+b00000000000001111 ]
+1t
+b00000000000001010 -
+b0000000001111000 "3
+b00000001 v
+1D
+b0000000000001111 '
+b00001011 x
+b00001100 )
+b00001111 !
+b00001100 r
+b00000000001100100 "/
+b00000000000001010 #
+b000001010 W
+b0000000001101110 O
+b0000000001011010 "@
+b000001010 n
+#16
+0":
+0",
+0V
+0w
+0Z
+0"'
+0A
+#21
+b0000001110000101 <
+b0000001111011110 4
+b00000010 K
+b00000010000111011 "<
+1"'
+b00000001110001111 b
+b01100100 0
+b0000001111100000 ">
+b00000001110000100 "6
+b0000000001011011 "!
+b00000010001000101 *
+b0000000001011010 "8
+b000010000 "#
+1A
+1":
+b01111000 u
+b00000001111100000 X
+b000001010 .
+1&
+1w
+b00000011 o
+1Z
+1E
+b00010000 (
+b0000000001011011 ".
+b00000000010010111 T
+b0000001110000100 "
+b0000010000111011 "(
+b0000001110000100 k
+1V
+b0000000010010111 9
+b0000000010000111 $
+b00000001110000101 m
+b00001010 P
+b010 3
+1",
+b0000010001000101 "$
+b01111000 R
+b00001111 5
+b0000001110001110 a
+b000000011 7
+b0000010000111000 "=
+b00010000 c
+b00000001111101010 N
+b01100100 1
+b00010000 z
+b01100100 ""
+b00000000010001101 ]
+1H
+b00000000001011011 -
+b0000001111101010 "3
+b00001010 v
+b0000000010001101 '
+b01100100 x
+b00001111 >
+b01101110 )
+b00001110 !
+b01101110 r
+b00000001110001110 "/
+b00000000001011011 #
+b000001010 ")
+b0000001110001111 O
+b0000001110000100 "@
+#26
+0Q
+b0000001101111010 <
+b00000000 }
+b00000000 "%
+b00000010000101110 "<
+b00000000 j
+0"'
+b00000001110000100 b
+b000000000 M
+b0000001111010100 ">
+0y
+b00000001101111010 "6
+b0000000001011010 "!
+0G
+b00000000 2
+b00000010000111000 *
+b000000000 {
+b000000000 "#
+b00000000 ^
+b00000000 I
+0A
+b00000000 ,
+0":
+b00000000 `
+b00000001111010100 X
+b000000000 C
+0w
+0"4
+0Z
+b00000000 (
+b0000000001011010 ".
+b000000000 \
+b00000000010000111 T
+b000000000 "0
+b0000010000101110 "(
+b0000001101111010 k
+0V
+b0000000010000111 9
+b00000001101111010 m
+b00000000 ;
+0",
+b0000010000111000 "$
+0J
+0~
+b00000000 "&
+0i
+b0000001110000100 a
+b00000000 c
+b00000001111011110 N
+0"?
+b00000000 z
+b00000000 e
+b00000000001111101 ]
+0+
+b00000000 "9
+b00000000 B
+b00000000001011010 -
+b00000000 %
+b0000001111011110 "3
+0Y
+b0000000001111101 '
+b00000000 "-
+b00000000 [
+b00000000 p
+b00000000 !
+b00000001110000100 "/
+b00000000 U
+b00000000 8
+b00000000001011010 #
+b00000000 l
+b0000001110000100 O
+#31
+b0000010001000000 <
+b0000011101110100 4
+b00000011 K
+b00000000110010100 "<
+1"'
+b00000010001001010 b
+b01111010 0
+b0000011101110100 ">
+b00000010001000000 "6
+b0000001100100000 "!
+b00000000110011110 *
+b0000001100101010 "8
+1A
+1":
+b00101110 u
+b00000011101110100 X
+1w
+b00000100 o
+1Z
+1=
+b0000001100101010 ".
+b00000010001100101 T
+0?
+b0000010001001010 "
+b0000000110010100 "(
+b0000010001000000 k
+1V
+b0000010001100101 9
+b0000010001100101 $
+b00000010001000000 m
+b01011010 P
+b011 3
+1",
+b0000000110011110 "$
+b00101110 R
+b01111101 5
+b0000010001001010 a
+b000000100 7
+b0000000110011110 "=
+b00000011101110100 N
+b01111010 1
+b01111010 ""
+b00000010001011011 ]
+b000001010 _
+b00000001100100000 -
+b0000011101110100 "3
+b01011010 v
+b0000010001011011 '
+b01111010 x
+b01111101 >
+b11010100 )
+b11010100 r
+b00000010001001010 "/
+b00000001100101010 #
+b0000010001001010 O
+b0000010001001010 "@
+b000000000 n
+#36
+0w

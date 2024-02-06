@@ -1,0 +1,131 @@
+$date
+2024-02-06T11:18+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module LIFNeuron $end
+ $var wire 9 ! _potentialReg_T_2 $end
+ $var wire 8 " count $end
+ $var wire 8 # potentialReg $end
+ $var wire 8 $ _GEN_2 $end
+ $var wire 8 % _T $end
+ $var wire 9 & _potentialReg_T_5 $end
+ $var wire 16 ' _potentialReg_T $end
+ $var wire 8 ( io_synapse_0 $end
+ $var wire 9 ) _count_T $end
+ $var wire 8 * _count_T_1 $end
+ $var wire 16 + _potentialReg_T_4 $end
+ $var wire 16 , _potentialReg_T_7 $end
+ $var wire 1 - _potentialReg_T_1 $end
+ $var wire 1 . io_neuronOutput $end
+ $var wire 1 / clock $end
+ $var wire 17 0 _potentialReg_T_3 $end
+ $var wire 8 1 vth $end
+ $var wire 17 2 _potentialReg_T_6 $end
+ $var wire 8 3 io_synapse_1 $end
+ $var wire 1 4 io_spikeInput $end
+ $var wire 1 5 reset $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+04
+b00000000 (
+b00000000000000000 2
+b0000000000000000 +
+05
+0-
+b0000000000000000 ,
+0.
+b00000000 "
+b00000000 1
+0/
+b00000000 #
+b00000000 *
+b000000000 &
+b00000000 $
+b0000000000000000 '
+b00000000 3
+b00000000 %
+b000000000 !
+b00000000000000000 0
+b000000000 )
+$end
+#0
+15
+b00000001 *
+b000000001 )
+#1
+b00001010 1
+1/
+#6
+b000000100 !
+b00000000000000100 0
+14
+05
+b00000000000000100 2
+b00000100 $
+b0000000000000100 +
+b00000100 (
+0/
+b0000000000000100 ,
+#11
+1-
+b00000100 %
+b0000000000100100 '
+1/
+b000000010 )
+b000000000 !
+b00000000000100100 0
+b00000001 "
+b00000100 #
+b00000000000100100 2
+b00000010 *
+b00000000 $
+b0000000000100100 +
+b0000000000100100 ,
+#16
+b00000101 3
+04
+b00000101 $
+0/
+#21
+0-
+b00100100 %
+1.
+b000001010 &
+b0000000101000100 '
+1/
+b000000011 )
+b00000000101000100 0
+b00000010 "
+b00100100 #
+b00000000100111010 2
+b00000011 *
+b00000100 $
+b0000000101000100 +
+b0000000100111010 ,
+#26
+b00000000 3
+b00000000 $
+b00000000 (
+0/
+#31
+b00000001000001010 0
+1-
+b00111010 %
+b00000011 "
+b00111010 #
+b00000001000000000 2
+b00000100 *
+b0000001000001010 '
+b0000001000001010 +
+1/
+b0000001000000000 ,
+b000000100 )
+#36
+0/

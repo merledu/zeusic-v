@@ -1,5 +1,8 @@
 #Successful Tests
-#Mon Mar 20 23:44:47 PKT 2023
-riscv.fivestagetest=1679337887849
+#Tue Feb 06 20:00:44 PKT 2024
 riscv.instMemtest=1678186548109
+lab6.lab6t2test=1706826250777
+riscv.fivestagetest=1679337887849
+snn.inputlayertest=1707231644522
+snn.neurontest=1707218337414
 riscv.regtest=1677863930120

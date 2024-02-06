@@ -1,1 +1,1 @@
-["riscv.fivestagetest","gcd.GCDSpec","riscv.p1test","riscv.regtest","riscv.instMemtest"]
+["gcd.GCDSpec","lab6.lab6t2test","snn.neurontest","snn.inputlayertest"]
