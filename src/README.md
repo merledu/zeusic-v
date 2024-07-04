@@ -1,1 +1,1 @@
-# RiscV-SingleCycleProcessor
+# RiscV-Neuromorphic-processor
