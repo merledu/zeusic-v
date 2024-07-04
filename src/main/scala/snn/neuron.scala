@@ -10,9 +10,9 @@ class LIFNeuron( val n: Int) extends Module {
     val synapse = Vec(n,Input ( UInt ( 8. W ) ))
     val neuronOutput = Output(Bool())
   })
-  val potentialReg = RegInit(0.U(8.W)) // Using FixedPoint.apply // Assuming 8-bit potential for simplicity
-  val vth = RegInit(10.U(8.W)) // Assuming 8-bit threshold for simplicity
-  val beta = RegInit(9.U(8.W)) // FixedPoint with 16 bits total width and 8 fractional bits
+  val potentialReg = RegInit(0.U(8.W)) 
+  val vth = RegInit(10.U(8.W)) 
+  val beta = RegInit(9.U(8.W))
   val count = RegInit(0.U(8.W))
   
   dontTouch(vth)
